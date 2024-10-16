@@ -1,26 +1,20 @@
-This folder contains five files
+# Machine Learning-Based Cryptocurrency Price Prediction
+This is the final project for **APSTA-GE 2047** *Messy Data and Machine Learning* course.
+## Collaborators
+* [Andrew Cooke](https://github.com/aj-cooke)
+* [Xinming Dai](https://github.com/Xinming-Dai)
+* [Yu Wang](https://github.com/yw6010)
 
-1. helper.R: This R script contains all the libraries and helping functions that we use for creating data and building models in the
-model and analysis.R  please make sure you have all of them in your environment before you run the code in model and analysis.R
+## Abstract
+Cryptocurrenies are not only used as a way of transaction. Major companies like Tesla starts to invest cryptos, and crypto even goes to war in Ukraine. The market sees high volatility of crypto price, which makes it’s hard to manage a good book. We focus on several major cryptos and predict the daily returns of Ethereum by using ARIMA, Bayesian structural time series (BSTS), and random forest. Our research finds that BSTS results in the best MSE.
 
-2. model and analysis.R: This is the main section of our project which includes all data generation and models
+<img src="https://github.com/Xinming-Dai/cryptocurrency-value-prediction/blob/main/figures/bsts_true_and_predict.png" width="800" />
 
-3. tweet_elon.csv: a CSV file containing the tweets that Elon Musk posted in the past year, which is used to build the logistic model. Please make
-sure you have it in your working directory. 
+## Methods
+* Logistic Regression
+* ARIMA
+* Bayesian Structural Time Series(BSTS)
+* Random Forest
 
-4. README.txt
-
-5. Written_Report.pdf: a 10-page analysis report for this project
-
-
-
-Important Note: Since we use tq_get() under tidyquant package to obtain the data, you may receive a warning message that says: 
-“Error in new.session(): Could not establish session after 5 attempts.” 
-If it happens, please run the following alternative code: 
-remotes::install_github("joshuaulrich/quantmod@358-getsymbols-new.session")
-library(quantmod)
-
-This is a technical issue on the package server’s side, and they have already fixed this issue on April 30th. 
-In case you still have this issue, please use the alternative code I gave you above. 
-Also, here is the link to the fix if you need further help. 
-https://github.com/joshuaulrich/quantmod/issues/358
+## Google Doc for Written Report
+https://docs.google.com/document/d/163jAOqS5oflKEpBr5frGacSgQ4C8-korEn40o4Vzc5s/edit?usp=sharing
