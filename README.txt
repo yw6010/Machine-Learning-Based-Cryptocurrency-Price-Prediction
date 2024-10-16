@@ -1,4 +1,4 @@
-This folder contains four files
+This folder contains five files
 
 1. helper.R: This R script contains all the libraries and helping functions that we use for creating data and building models in the
 model and analysis.R  please make sure you have all of them in your environment before you run the code in model and analysis.R
@@ -10,6 +10,7 @@ sure you have it in your working directory.
 
 4. README.txt
 
+5. Written_Report.pdf: a 10-page analysis report for this project
 
 
 
