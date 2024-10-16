@@ -1,4 +1,4 @@
-# Machine Learning-Based Cryptocurrency Price Prediction
+## Machine Learning-Based Cryptocurrency Price Prediction
 This is the final project for **APSTA-GE 2047** *Messy Data and Machine Learning* course.
 ## Collaborators
 * [Andrew Cooke](https://github.com/aj-cooke)
